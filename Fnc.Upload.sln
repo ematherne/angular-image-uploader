@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fnc.Upload", "Fnc.Upload\Fnc.Upload.csproj", "{DACDCC5D-EE0C-422B-8895-86B76853B387}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fnc.Upload.Tests", "Fnc.Upload.Tests\Fnc.Upload.Tests.csproj", "{50770F74-871E-4F68-AA77-5E2101290F08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DACDCC5D-EE0C-422B-8895-86B76853B387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DACDCC5D-EE0C-422B-8895-86B76853B387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DACDCC5D-EE0C-422B-8895-86B76853B387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DACDCC5D-EE0C-422B-8895-86B76853B387}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50770F74-871E-4F68-AA77-5E2101290F08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50770F74-871E-4F68-AA77-5E2101290F08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50770F74-871E-4F68-AA77-5E2101290F08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50770F74-871E-4F68-AA77-5E2101290F08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,76 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,700,900);
+
+body { 
+	background: #fff; 
+	margin: 0; 
+	color: #5a5a5a;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h1, h2, h3, h4 {
+    font-weight: bold;
+}
+
+.features {
+    float: right;
+    width: 300px;
+    padding-left: 20px;
+}
+.features .heading {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.drop {
+    padding: 50px;
+    border: 2px #f1f1f1 dashed;
+    border-radius: 5px;
+    line-height: 34px;
+}
+.drop.drag-over {
+    background: #5CB85C;
+    color: #fff
+}
+.transfer-box {
+    margin-bottom: 5px;
+}
+.transfer-box .progress {
+    margin-bottom: 0;
+}
+
+.thumbnail {
+    line-height: 20px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    word-break: normal;
+}
+.thumbnail img {
+    max-width: 200px;
+    max-height: 150px;
+}
+
+.gallery-box {
+    width: 200px;
+    padding: 5px;
+    margin: 7px;
+    float: left;
+    min-height: 200px;
+    border: 1px solid #ddd;
+    overflow: hidden;
+}
+.gallery-box .progress {
+    margin-bottom: 0;
+}
+.gallery-box .thumbnail {
+    height: 188px;
+    width: 188px;
+}
+.gallery-box .title {
+    height: 22px;
+    overflow: hidden;
+    display: block;
+}
